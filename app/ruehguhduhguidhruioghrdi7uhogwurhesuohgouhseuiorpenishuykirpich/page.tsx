@@ -18,7 +18,7 @@ export default function AdminLogin() {
     
     try {
       const response = await authAPI.login(username, password);
-      document.cookie = `access_token=${response.access_token}; path=/; max-age=${30 * 24 * 60 * 60}`; // 30 дней
+      document.cookie = `access_token=${response.access_token}; path=/; max-age=${30 * 24 * 60 * 60}`; 
       localStorage.setItem("adminAuth", "true");
       
       router.push("/ruehguhduhguidhruioghrdi7uhogwurhesuohgouhseuiorpenishuykirpich/dashboard");

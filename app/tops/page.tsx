@@ -10,7 +10,7 @@ export default function TopsPage() {
   const [selectedDate, setSelectedDate] = useState(today);
   const [selectedPeriod, setSelectedPeriod] = useState(today.toLocaleDateString('ru-RU'));
   const [isDatePickerOpen, setIsDatePickerOpen] = useState(false);
-  const [activeTopIndex, setActiveTopIndex] = useState(1); // Центральный топ
+  const [activeTopIndex, setActiveTopIndex] = useState(1);
   const [serverOnline, setServerOnline] = useState({ online: 0, max: 5000 });
   const [isMobile, setIsMobile] = useState(false);
   const [isContactsModalOpen, setIsContactsModalOpen] = useState(false);
@@ -323,7 +323,7 @@ export default function TopsPage() {
                     const firstDay = new Date(year, month, 1);
                     const lastDay = new Date(year, month + 1, 0);
                     const daysInMonth = lastDay.getDate();
-                    const startDay = firstDay.getDay() || 7; // Convert Sunday (0) to 7
+                    const startDay = firstDay.getDay() || 7; 
                     
                     const days = [];
                     for (let i = 1; i < startDay; i++) {

@@ -21,7 +21,7 @@ export default function BannersManager() {
 
   const fetchBanners = async () => {
     try {
-      const data = await bannersAPI.getAll(false); // Получаем все баннеры, включая неактивные
+      const data = await bannersAPI.getAll(false);
       setBanners(data);
     } catch (error) {
       console.error("Error fetching banners:", error);

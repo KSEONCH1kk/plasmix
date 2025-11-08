@@ -28,7 +28,7 @@ export default function GameModesManager() {
   const fetchGameModes = async () => {
     try {
       setLoading(true);
-      const modes = await gameModesAPI.getAll(true); // Включаем неактивные
+      const modes = await gameModesAPI.getAll(true);
       console.log('Loaded game modes:', modes);
       setGameModes(modes);
     } catch (error) {

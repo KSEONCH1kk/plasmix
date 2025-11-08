@@ -138,7 +138,7 @@ public class OrderHandler {
             case "3months":
                 return 90;
             case "forever":
-                return -1; // -1 означает навсегда
+                return -1; 
             default:
                 return 30;
         }

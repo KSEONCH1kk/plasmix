@@ -528,7 +528,7 @@ function DonationsManager() {
 
   const fetchDonations = async () => {
     try {
-      const data = await donationsAPI.getAll(undefined, true); // admin=true для получения команд
+      const data = await donationsAPI.getAll(undefined, true); 
       setDonations(data);
     } catch (error) {
       console.error('Error fetching donations:', error);
@@ -856,7 +856,7 @@ function ItemsManager() {
 
   const fetchItems = async () => {
     try {
-      const data = await itemsAPI.getAll(undefined, undefined, true); // admin=true для получения команд
+      const data = await itemsAPI.getAll(undefined, undefined, true); 
       setItems(data);
     } catch (error) {
       console.error('Error fetching items:', error);
