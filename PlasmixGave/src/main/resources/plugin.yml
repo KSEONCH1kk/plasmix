@@ -1,0 +1,15 @@
+name: PlasmixGave
+version: '${project.version}'
+main: ru.kseonyt.plasmixgave.PlasmixGave
+api-version: '1.16'
+author: KSEONYT
+
+commands:
+  plasmixgave:
+    usage: /plasmixgave <check|reload|info|debug>
+    permission: plasmixgave.admin
+    aliases: [pgave]
+
+permissions:
+  plasmixgave.admin:
+    default: op

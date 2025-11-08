@@ -1,0 +1,23 @@
+api:
+  # URL
+  url: "http://77.90.33.66:8000/api"
+  # ключ для авторизации
+  secret-key: "your-secret-key-here"
+
+# Server Settings
+server:
+  # ID сервера (должен совпадать с server_id в админке)
+  # Например: lite_anarchy, classic_anarchy
+  id: "lite_anarchy"
+  # Режим сервера
+  mode: "lite"
+
+polling:
+  # Интервал проверки новых заказов (в секундах)
+  interval: 5
+  # Включить автоматическую проверку заказов
+  enabled: true
+
+debug:
+  enabled: false
+
