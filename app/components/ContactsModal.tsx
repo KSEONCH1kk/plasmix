@@ -34,7 +34,7 @@ export default function ContactsModal({ isOpen, onClose }: ContactsModalProps) {
 
         <div className="space-y-4">
           <a
-            href="https://vk.com/your_community"
+            href="https://vk.com/plasmix_su"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-4 p-4 rounded-xl bg-gradient-to-r from-blue-50 to-transparent hover:from-blue-100 transition-all group"
@@ -49,7 +49,7 @@ export default function ContactsModal({ isOpen, onClose }: ContactsModalProps) {
           </a>
 
           <a
-            href="https://t.me/your_community"
+            href="https://t.me/px_su"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-4 p-4 rounded-xl bg-gradient-to-r from-sky-50 to-transparent hover:from-sky-100 transition-all group"
@@ -64,7 +64,7 @@ export default function ContactsModal({ isOpen, onClose }: ContactsModalProps) {
           </a>
 
           <a
-            href="https://discord.gg/your_server"
+            href="https://ds.p-x.su"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-4 p-4 rounded-xl bg-gradient-to-r from-indigo-50 to-transparent hover:from-indigo-100 transition-all group"

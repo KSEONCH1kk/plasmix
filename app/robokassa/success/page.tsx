@@ -233,7 +233,7 @@ function SuccessContent() {
                   Вернуться на главную
                 </Link>
                 <a
-                  href="https://t.me/your_support"
+                  href="https://t.me/px_su"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex-1 px-6 py-2 rounded-xl font-bold text-gray-700 bg-gray-200 hover:bg-gray-300 text-center transition-all"

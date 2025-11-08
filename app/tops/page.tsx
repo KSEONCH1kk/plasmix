@@ -174,7 +174,7 @@ export default function TopsPage() {
                   Правила
                   <span className="absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full transition-all duration-300" style={{ background: "linear-gradient(90deg, #FFD700 0%, #FFA500 100%)" }}></span>
                 </a>
-                <a href="https://t.me/your_support" target="_blank" rel="noopener noreferrer" className="relative text-black hover:text-black font-medium transition-colors pb-1 group">
+                <a href="https://t.me/px_su" target="_blank" rel="noopener noreferrer" className="relative text-black hover:text-black font-medium transition-colors pb-1 group">
                   Поддержка
                   <span className="absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full transition-all duration-300" style={{ background: "linear-gradient(90deg, #FFD700 0%, #FFA500 100%)" }}></span>
                 </a>
@@ -224,9 +224,9 @@ export default function TopsPage() {
             <a href="#" className="text-sm font-medium text-gray-600 hover:text-black transition-colors whitespace-nowrap">
               Правила
             </a>
-            <a href="https://t.me/your_support" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-gray-600 hover:text-black transition-colors whitespace-nowrap">
-              Поддержка
-            </a>
+            <a href="https://t.me/px_su" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-gray-600 hover:text-black transition-colors whitespace-nowrap">
+                  Поддержка
+                </a>
           </nav>
           <div className="lg:hidden mt-4 text-center">
             <p className="text-sm font-semibold text-black">
@@ -573,15 +573,19 @@ export default function TopsPage() {
           </div>
         </div>
       </main>
-      <footer className="text-white mt-20" style={{ background: "linear-gradient(180deg, #1f2937 0%, #111827 100%)" }}>
-        <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="text-center md:text-left">
-              <h3 className="text-2xl font-bold mb-2 text-white">PLASMIX</h3>
-              <p className="text-sm text-gray-400 mb-3">Сервер 1.21.4</p>
-              <div className="flex gap-2 mb-4 justify-center md:justify-start">
+      <footer className="text-white mt-auto" style={{ background: "linear-gradient(180deg, #1f2937 0%, #111827 100%)" }}>
+        <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-8">
+            <div className="flex flex-col items-center md:items-start">
+              <h3 className="text-2xl font-bold mb-2 text-white">
+                PLASMIX
+              </h3>
+              <p className="text-sm text-gray-400 mb-3">
+                Сервер 1.21.4
+              </p>
+              <div className="flex gap-2 mb-4">
                 <a 
-                  href="#" 
+                  href="https://vk.com/plasmix_su" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="transition-colors"
@@ -590,7 +594,7 @@ export default function TopsPage() {
                   <i className="fab fa-vk text-gray-400 hover:text-white text-base"></i>
                 </a>
                 <a 
-                  href="#" 
+                  href="https://ds.p-x.su" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="transition-colors"
@@ -599,7 +603,7 @@ export default function TopsPage() {
                   <i className="fab fa-discord text-gray-400 hover:text-white text-base"></i>
                 </a>
                 <a 
-                  href="#" 
+                  href="https://t.me/px_su" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="transition-colors"
@@ -609,7 +613,21 @@ export default function TopsPage() {
                 </a>
               </div>
               
-              <p className="text-xs text-gray-500">© 2025 Plasmix — Все права защищены.</p>
+              <p className="text-xs text-gray-500">
+                © 2025 Plasmix — Все права защищены.
+              </p>
+              <p className="text-xs text-gray-500">
+                Plasmix не связан с MojangAB, все средства
+              </p>
+              <p className="text-xs text-gray-500">
+                идут на развитие проекта.
+              </p>
+              <p className="text-xs text-gray-500 mt-2">
+                ИП xxx x. М.
+              </p>
+              <p className="text-xs text-gray-500">
+                ИНН xxx ОГРНИП xxx
+              </p>
             </div>
             <div className="text-center md:text-left">
               <h4 className="text-sm font-bold mb-3 text-white">Навигация</h4>
@@ -655,7 +673,7 @@ export default function TopsPage() {
                 <p className="text-sm text-gray-400">Мобильные платежи</p>
                 <p className="text-sm text-gray-400">ЮМани</p>
               </div>
-              <div className="mt-4 flex justify-center md:justify-start">
+              <div className="mt-4">
                 <img 
                   src="/methods.png" 
                   alt="Payment Methods" 
@@ -692,7 +710,7 @@ export default function TopsPage() {
 
             <div className="space-y-4">
               <a
-                href="https://vk.com/your_community"
+                href="https://vk.com/plasmix_su"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 p-4 rounded-xl bg-gradient-to-r from-blue-50 to-transparent hover:from-blue-100 transition-all group"
@@ -707,7 +725,7 @@ export default function TopsPage() {
               </a>
 
               <a
-                href="https://t.me/your_community"
+                href="https://t.me/px_su"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 p-4 rounded-xl bg-gradient-to-r from-sky-50 to-transparent hover:from-sky-100 transition-all group"
@@ -722,7 +740,7 @@ export default function TopsPage() {
               </a>
 
               <a
-                href="https://discord.gg/your_server"
+                href="https://ds.p-x.su"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 p-4 rounded-xl bg-gradient-to-r from-indigo-50 to-transparent hover:from-indigo-100 transition-all group"

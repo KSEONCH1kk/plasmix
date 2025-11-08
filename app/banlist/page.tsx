@@ -147,7 +147,7 @@ export default function BanlistPage() {
                   Правила
                   <span className="absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full transition-all duration-300" style={{ background: "linear-gradient(90deg, #FFD700 0%, #FFA500 100%)" }}></span>
                 </a>
-                <a href="https://t.me/your_support" target="_blank" rel="noopener noreferrer" className="relative text-black hover:text-black font-medium transition-colors pb-1 group">
+                <a href="https://t.me/px_su" target="_blank" rel="noopener noreferrer" className="relative text-black hover:text-black font-medium transition-colors pb-1 group">
                   Поддержка
                   <span className="absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full transition-all duration-300" style={{ background: "linear-gradient(90deg, #FFD700 0%, #FFA500 100%)" }}></span>
                 </a>
@@ -198,7 +198,7 @@ export default function BanlistPage() {
             <a href="#" className="text-sm font-medium text-gray-600 hover:text-black transition-colors whitespace-nowrap">
               Правила
             </a>
-            <a href="https://t.me/your_support" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-gray-600 hover:text-black transition-colors whitespace-nowrap">
+            <a href="https://t.me/px_su" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-gray-600 hover:text-black transition-colors whitespace-nowrap">
               Поддержка
             </a>
           </nav>
@@ -431,7 +431,7 @@ export default function BanlistPage() {
               </p>
               <div className="flex gap-2 mb-4">
                 <a 
-                  href="#" 
+                  href="https://vk.com/plasmix_su" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="transition-colors"
@@ -440,7 +440,7 @@ export default function BanlistPage() {
                   <i className="fab fa-vk text-gray-400 hover:text-white text-base"></i>
                 </a>
                 <a 
-                  href="#" 
+                  href="https://ds.p-x.su" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="transition-colors"
@@ -449,7 +449,7 @@ export default function BanlistPage() {
                   <i className="fab fa-discord text-gray-400 hover:text-white text-base"></i>
                 </a>
                 <a 
-                  href="#" 
+                  href="https://t.me/px_su" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="transition-colors"

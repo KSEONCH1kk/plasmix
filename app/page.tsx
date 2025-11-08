@@ -237,7 +237,7 @@ export default function Home() {
                   Правила
                   <span className="absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full transition-all duration-300" style={{ background: "linear-gradient(90deg, #FFD700 0%, #FFA500 100%)" }}></span>
                 </a>
-                <a href="https://t.me/your_support" target="_blank" rel="noopener noreferrer" className="relative text-black hover:text-black font-medium transition-colors pb-1 group">
+                <a href="https://t.me/px_su" target="_blank" rel="noopener noreferrer" className="relative text-black hover:text-black font-medium transition-colors pb-1 group">
                   Поддержка
                   <span className="absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full transition-all duration-300" style={{ background: "linear-gradient(90deg, #FFD700 0%, #FFA500 100%)" }}></span>
                 </a>
@@ -288,9 +288,9 @@ export default function Home() {
             <a href="#" className="text-sm font-medium text-gray-600 hover:text-black transition-colors whitespace-nowrap">
               Правила
             </a>
-            <a href="https://t.me/your_support" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-gray-600 hover:text-black transition-colors whitespace-nowrap">
-              Поддержка
-            </a>
+            <a href="https://t.me/px_su" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-gray-600 hover:text-black transition-colors whitespace-nowrap">
+                  Поддержка
+                </a>
           </nav>
           <div className="lg:hidden mt-4 text-center">
             <p className="text-sm font-semibold text-black">
@@ -1145,7 +1145,7 @@ export default function Home() {
               </p>
               <div className="flex gap-2 mb-4">
                 <a 
-                  href="#" 
+                  href="https://vk.com/plasmix_su" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="transition-colors"
@@ -1154,7 +1154,7 @@ export default function Home() {
                   <i className="fab fa-vk text-gray-400 hover:text-white text-base"></i>
                 </a>
                 <a 
-                  href="#" 
+                  href="https://ds.p-x.su" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="transition-colors"
@@ -1163,7 +1163,7 @@ export default function Home() {
                   <i className="fab fa-discord text-gray-400 hover:text-white text-base"></i>
                 </a>
                 <a 
-                  href="#" 
+                  href="https://t.me/px_su" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="transition-colors"
@@ -1270,7 +1270,7 @@ export default function Home() {
 
             <div className="space-y-4">
               <a
-                href="https://vk.com/your_community"
+                href="https://vk.com/plasmix_su"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 p-4 rounded-xl bg-gradient-to-r from-blue-50 to-transparent hover:from-blue-100 transition-all group"
@@ -1285,7 +1285,7 @@ export default function Home() {
               </a>
 
               <a
-                href="https://t.me/your_community"
+                href="https://t.me/px_su"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 p-4 rounded-xl bg-gradient-to-r from-sky-50 to-transparent hover:from-sky-100 transition-all group"
@@ -1300,7 +1300,7 @@ export default function Home() {
               </a>
 
               <a
-                href="https://discord.gg/your_server"
+                href="https://ds.p-x.su"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 p-4 rounded-xl bg-gradient-to-r from-indigo-50 to-transparent hover:from-indigo-100 transition-all group"
